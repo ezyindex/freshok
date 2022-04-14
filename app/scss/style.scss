@@ -262,18 +262,7 @@
 }
 
 .slider {
-  &__item--1 {
-    background-image: url('../images/slider/bg1.jpg');
-    @extend %bg;
-  }
-
-  &__item--2 {
-    background-image: url('../images/slider/bg2.jpg');
-    @extend %bg;
-  }
-
-  &__item--3 {
-    background-image: url('../images/slider/bg3.jpg');
+  &__item {
     @extend %bg;
   }
 
