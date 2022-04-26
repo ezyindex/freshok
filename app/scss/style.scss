@@ -756,7 +756,7 @@
     }
 
     &--third {
-      width: 300px;
+      width: 302px;
       padding: 76px 102px 76px 33px;
     }
 
@@ -954,6 +954,12 @@
 
   &__item {
     margin-right: 140px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+
+    &:hover{
+      opacity: 1;
+    }
   }
 }
 
@@ -992,6 +998,10 @@
     position: relative;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+
+    &:hover .news__text{
+      color: $green-900;
+    }
   }
 
   &__date {
@@ -1027,6 +1037,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: $dark-900;
+    transition: color 0.3s;
   }
 }
 
